@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    
+    text-align: center;
+    color: #f7921e;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2 {
+    color: #f7921e;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    color:#f7921e;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+h4 {
+    color:#f7921e;
+    font-style: italic;
+    font-weight: normal;
+}
+.p {
+    text-align: justify;
+}
+
+
+.paragraph {
+    text-align: center;
+}
+
+img {
+border: 30px solid #000000;
+padding: 10px 10px 10px 10px;
+margin: 10px 10px 10px 10px;
+}
+
+body {
+background-image: url(illinois-state-university-logo.png);
+background-repeat: no-repeat;
+background-position: center;
+}      

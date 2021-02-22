@@ -1,0 +1,147 @@
+h1 {
+font-family: Helvetica, sans-serif;
+font-weight: normal;
+width: 960px;
+padding:20px;
+background-color: #000000;
+color: #FFFFFF;
+text-align: left;
+margin-block-start: 0em;
+}
+
+body {
+border: 3px solid #000000;
+width: 1000px;
+height: 1000px;
+padding: 10px solid #FFFFFF;
+margin: 10px;
+font-family: Helvetic; 
+background-image: url(a62.png);
+background-position: center;
+z-index: -1;
+display: block;
+margin-left: auto;
+margin-right:auto;
+
+}
+
+.everything {
+background-color: #FFFFFF;
+width: 1000px;
+height: 1000px;
+
+}
+
+h2 {
+font-family: Helvetica, sans-serif;
+padding: 5px;
+border-bottom: 3px solid #000000;
+text-align: left;
+position: relative;
+left: 250px;
+top: -290px;
+ width: 740px;
+}
+
+.brick {
+border: 3px solid #000000;
+width: 440px;
+height: auto;
+padding: 10px;
+background-color: #FFFFFF;
+float: left;
+margin: 5px;
+font-size: 14px;
+
+}  
+
+nav {
+position: relative;
+left: 0px;
+top: 20px;
+}
+
+
+
+nav ul {
+margin:0;
+padding: 0;
+list-style-type: none;
+}
+
+nav li {
+margin: 10px;
+width: 190px;
+background-color: #F40000;
+ text-decoration: none;
+text-align: left;
+}
+
+nav li a {
+color: #ffffff;
+font-family: Helvetica, sans-serif;
+display:block;
+padding:10px;
+ text-decoration: none;
+text-align: left;
+
+}
+
+nav li a:hover {
+background-color:#cc0000;
+text-align: left;
+
+}
+.below {
+position: relative;
+left: 240px;
+top: -300px;
+}
+
+.georgia {
+font-family: Georgia;
+text-align: justify;
+font-weight: bold;
+width: 700px;
+}
+.p1, .p2 {
+    clear:both;
+    width: 750px;
+
+}
+
+
+p a {
+color:#F40000;
+ text-decoration: none;
+font-family: Helvetica;
+}
+
+ p a:hover {
+font-family: Helvetica;
+text-decoration:underline;
+color:#0000EE;  
+font-style: bold;
+}
+
+.footer {
+color: #FFFFFF;
+background-color:#F40000;
+border: 3px solid #000000;
+width: 735px;
+height: auto;
+padding: 10px;
+text-align: center;
+font-family: Verdana;
+font-style: italic;
+font-size: 12px;
+margin:auto;
+position: relative;
+top: -78px;
+left: -2px;
+padding-left: 128px;
+padding-right: 135px;
+
+}
+
+

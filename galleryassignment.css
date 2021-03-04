@@ -1,0 +1,141 @@
+h1 a {
+font-family: Helvetica, sans-serif;
+text-align: left;
+font-style: italic;
+text-decoration: none;
+padding: 25px;
+color: #5FB3FF;
+font-weight: normal;
+background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+display: grid;
+grid-template-columns: 1fr;
+
+}
+
+h1 {
+    margin: 0px;
+}
+
+h1 a:hover {
+color:#E00017;
+font-weight: normal;
+}
+
+
+nav ul {
+list-style-type: none;
+background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+padding: 15px;
+margin: 0px;
+column-gap: 40px;
+background-color: #000000;
+}
+
+nav ul li {
+column-gap: 40px;
+width: 200px;
+    
+}
+
+nav ul li a {
+text-decoration: none;
+color: #5FB3FF;
+font-family: Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+column-gap: 40px;
+}
+
+nav ul li a:hover {
+color:#E00017;
+font-weight: bold;
+column-gap: 40px;
+}
+
+h2{
+border-bottom: 3px solid #126DBC;
+font-family: Helvetica, sans-serif;
+text-align: left;
+font-weight: normal;
+color: #126DBC;
+width: 950px;
+   margin: 25px;
+
+}
+
+
+.manblue {
+border: 4px solid #126DBC;
+padding: 0px;
+margin: 0 30px 10px 30px;
+width: 270px;
+height: 334px; 
+}
+
+
+.women {
+border: 4px solid #126DBC;
+padding: 0px;
+margin: 0 30px 10px 30px;
+width: 270px;
+height: 334px; 
+align-content: center;
+}
+
+
+.redcircle {
+border: 4px solid #126DBC;
+padding: 0px;
+margin: 0 30px 10px 30px;
+width: 270px;
+height: 334px; 
+}
+
+.ppl {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+margin: 0px;
+align-content: center;
+
+
+    
+}
+
+body {
+    background-color: #818181;
+}
+
+#wrapper {
+border: 3px solid #126DBC;
+width: 1000px;
+height: 826px;
+padding: 10px solid #FFFFFF;
+background-position: center;
+display: block;
+margin-left: auto;
+margin-right:auto;
+background-color: #FFFFFF;
+}
+
+span {
+color: #E00017;
+font-weight: bold;
+}
+
+.p1 {
+    margin: 30px; }
+
+
+.footer {  
+background-color:  #E00017;
+width: 995px;
+border: 4px solid #126DBC;
+padding: 0px;
+    
+}
+
+

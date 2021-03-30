@@ -1,0 +1,40 @@
+nav ul li a {
+text-align: center;
+color: #FFFFFF;
+font-family: Baskerville, serif;
+font-size: 30px;
+list-style-type: none;
+text-decoration: none;
+text-align: center;
+line-height: 50px;
+position: relative;
+top: -120px;
+
+
+}
+
+nav ul li a:hover {
+color:#6B89A1;
+list-style-type: none;
+text-decoration: none;
+text-align: center;
+line-height: 50px;
+
+}
+
+body {
+background-image: url(flower-pattern.png);
+background-position: center;
+z-index: -1;
+display:block;
+margin-left: auto;
+margin-right: auto;
+background-size: 3200px;
+text-align: center;
+}
+
+.logo {
+    
+position: relative;
+top: -70px;
+}

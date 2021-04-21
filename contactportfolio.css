@@ -1,0 +1,98 @@
+.thumb {
+margin: 0px;
+position: fixed;
+top: 0px;
+left: 5px;
+z-index: 2000;
+width: 100%;
+border-bottom: 1px solid #000000; 
+background:#000000; 
+
+
+}
+
+.float {
+float: left;
+}
+
+nav ul {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+padding: 15px;
+margin: 0px;
+column-gap: 70px;
+width: 200px;
+    
+}
+
+
+nav li a {
+text-decoration: none;
+transition: color 1s, color .5s;
+color: #FFFFFF;
+text-align: center;
+font-family: "cinzel";
+font-size: 18px;
+
+}
+
+
+nav li a:hover{
+background-color: #000000;
+color:#6B89A1;
+}
+
+
+h1 {
+font-family: "cinzel";
+font-weight: bold;
+font-size: 36px;
+color: #FFFFFF;
+font-size: 40px;
+display: grid;
+grid-template-columns: 1fr;
+padding: 0px;
+margin-top: 150px;
+text-align: center;
+}
+    
+body {
+background-color:#000000;
+}
+
+.wrapper {
+border: 3px;
+width: 1000px;
+height: 826px;
+padding: 10px;
+background-position: center;
+display: block;
+margin-left: auto;
+margin-right:auto;
+background-color: #000000;
+}
+   
+p {
+color: #FFFFFF;
+font-size: 16px;
+font-family: "cinzel";
+text-align: center;
+}
+
+.linkedingeneral a {
+color: #FFFFFF;
+text-decoration: none;
+width: 350px;
+display: block;
+align-items: center;
+margin-left: 330px;
+}
+
+.text{
+margin-top: 60px;
+}
+
+
+
+

@@ -32,7 +32,8 @@ text-decoration: none;
 transition: color 1s, color .5s;
 color: #FFFFFF;
 text-align: center;
-font-family: "cinzel";
+font-family: 'Cinzel', serif;
+font-weight: 600;
 font-size: 18px;
 
 }
@@ -45,8 +46,7 @@ color:#6B89A1;
 
 
 h1 {
-font-family: "cinzel";
-font-weight: bold;
+font-family: 'Cinzel', serif;
 font-size: 36px;
 color: #FFFFFF;
 font-size: 40px;
@@ -76,7 +76,6 @@ background-color: #000000;
 p {
 color: #FFFFFF;
 font-size: 16px;
-font-family: "cinzel";
 text-align: center;
 }
 

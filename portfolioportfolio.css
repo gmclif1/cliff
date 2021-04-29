@@ -1,0 +1,161 @@
+.thumb {
+margin: 0px;
+position: fixed;
+top: 0px;
+left: 5px;
+z-index: 2000;
+width: 100%;
+border-bottom: 1px solid #000000;  
+background:#000000; 
+
+
+}
+
+.float {
+float: left;
+}
+
+nav ul {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+padding: 15px;
+margin: 0px;
+column-gap: 70px;
+width: 200px;
+    
+}
+
+
+nav li a {
+text-decoration: none;
+transition: color 1s, color .5s;
+color: #FFFFFF;
+text-align: center;
+font-family: 'Cinzel', serif;
+font-weight: 600;
+font-size: 18px;
+
+}
+
+
+nav li a:hover{
+background-color: #000000;
+color:#6B89A1;
+}
+
+
+h1 {
+font-family: 'Cinzel', serif;
+font-weight: bold;
+font-size: 30px;
+color: #FFFFFF;
+display: grid;
+grid-template-columns: 1fr;
+padding-left: 70px;
+margin-top: 150px;
+text-align: left;
+    
+}
+
+    
+body {
+background-color:#000000;
+padding-top: 20px;
+}
+
+   
+p {
+color: #FFFFFF;
+font-size: 16px;
+text-align: left;
+padding-left: 30px;
+}
+
+
+.carrotimg {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding:0px;
+overflow-x: hidden; 
+align-content: left;
+}
+
+.carrots a {
+text-decoration: none;
+transition: transform .30s;
+}
+
+.carrots a:hover h1 {
+transform: scale(1.2);
+transition:transform .20s ease-in-out 0.30s;
+width: 500px;
+}
+
+.kotaimg {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding:0px;
+overflow-x: hidden; 
+}
+
+.kota a {
+text-decoration: none;
+transition: transform .30s;
+}
+
+.kota a:hover h1 {
+transform: scale(1.2);
+transition:transform .20s ease-in-out 0.30s;
+width: 700px;
+}
+
+
+.bananaimg {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding:0px;
+overflow-x: hidden; 
+}
+
+.banana a {
+text-decoration: none;
+transition: transform .30s;
+}
+
+.banana a:hover h1 {
+transform: scale(1.2);
+transition:transform .20s ease-in-out 0.30s;
+width: 700px;
+}
+
+
+
+.breakingimg {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding:0px;
+overflow-x: hidden; 
+}
+
+.breaking a {
+text-decoration: none;
+transition: transform .30s;
+}
+
+.breaking a:hover h1 {
+transform: scale(1.2);
+transition:transform .20s ease-in-out 0.30s;
+width: 400px;
+}
+
+
+
+
+
+
+

@@ -37,7 +37,8 @@ text-decoration: none;
 transition: color 1s, color .5s;
 color: #000000;
 text-align: center;
-font-family: "cinzel";
+font-family: 'Cinzel', serif;
+font-weight: 600;
 font-size: 18px;
 list-style-type: none;
 
@@ -54,16 +55,16 @@ list-style-type: none;
 
 
 h1 {
-font-family: "cinzel";
+font-family: 'Cinzel', serif;
 font-weight: bold;
-font-size: 34px;
+font-size: 33px;
 color: #000000;
 display: grid;
 grid-template-columns: 1fr;
 padding: 0px;
 margin-top: 150px;
 text-align: right;
-padding-right: 50px;
+padding-right: 78px;
     
 }
 
@@ -89,9 +90,8 @@ background-color: #FFFFFF;
 .p1 {
 color: #000000;
 font-size: 17px;
-font-family: "cinzel";
 text-align: left;
-width: 535px;
+width: 550px;
 float: right;
 }
 

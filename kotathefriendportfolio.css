@@ -104,6 +104,8 @@ margin: 0px;
 align-content: center;
 column-gap: 30px;
 padding: 150px;
+padding-left: 120px;
+padding-right: 50px;
 align-content: center;
 padding-top: 0px;
 }
@@ -119,6 +121,18 @@ margin-bottom: -10px;
 .topimage:hover {
 transform: scale(1.2); 
 }
+
+.search {
+padding-left: 50px;
+}
+
+.whitehome {
+padding-left: 50px;
+}
+
+.pasadena {
+padding-left: -10px;}
+
 
 
 

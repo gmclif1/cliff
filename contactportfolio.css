@@ -93,17 +93,7 @@ transition: transform .30s;
 transform: scale(1.2);
 transition:transform .20s ease-in-out 0.30s;
 width: 400px;
-} .carrots a {
-text-decoration: none;
-transition: transform .30s;
-}
 
-.linkedingeneral a:hover h1 {
-transform: scale(1.2);
-transition:transform .20s ease-in-out 0.30s;
-width: 400px;
-}
-
-.text{
-margin-top: 60px;
-}
+//.text{
+//margin-top: 60px;
+//}

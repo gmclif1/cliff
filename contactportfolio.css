@@ -5,8 +5,8 @@ top: 0px;
 left: 5px;
 z-index: 2000;
 width: 100%;
-border-bottom: 1px solid #000000; 
-background:#000000; 
+border-bottom: 1px solid #000000;
+background:#000000;
 
 
 }
@@ -23,7 +23,7 @@ padding: 15px;
 margin: 0px;
 column-gap: 70px;
 width: 200px;
-    
+
 }
 
 
@@ -56,7 +56,7 @@ padding: 0px;
 margin-top: 150px;
 text-align: center;
 }
-    
+
 body {
 background-color:#000000;
 }
@@ -72,7 +72,7 @@ margin-left: auto;
 margin-right:auto;
 background-color: #000000;
 }
-   
+
 p {
 color: #FFFFFF;
 font-size: 16px;
@@ -86,12 +86,24 @@ width: 350px;
 display: block;
 align-items: center;
 margin-left: 330px;
+transition: transform .30s;
+}
+
+.linkedingeneral a:hover h1 {
+transform: scale(1.2);
+transition:transform .20s ease-in-out 0.30s;
+width: 400px;
+} .carrots a {
+text-decoration: none;
+transition: transform .30s;
+}
+
+.linkedingeneral a:hover h1 {
+transform: scale(1.2);
+transition:transform .20s ease-in-out 0.30s;
+width: 400px;
 }
 
 .text{
 margin-top: 60px;
 }
-
-
-
-

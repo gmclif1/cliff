@@ -5,8 +5,8 @@ top: 0px;
 left: 5px;
 z-index: 2000;
 width: 100%;
-border-bottom: 1px solid #000000; 
-background:#000000; 
+border-bottom: 1px solid #000000;
+background:#000000;
 
 
 }
@@ -23,7 +23,7 @@ padding: 15px;
 margin: 0px;
 column-gap: 70px;
 width: 200px;
-    
+
 }
 
 
@@ -56,7 +56,7 @@ padding: 5px;
 h1 {
 font-family: 'Cinzel', serif;
 font-weight: bold;
-font-size: 36px;
+font-size: 40px;
 color: #FFFFFF;
 font-size: 40px;
 display: grid;
@@ -73,10 +73,11 @@ font-style: normal;
 text-transform: uppercase;
 margin-bottom: 0px;
 color:#FFFFFF;
-font-size: 40px;
+font-size: 25px;
 text-align: left;
+margin-top: 100px;
 }
-    
+
 body {
 background-color:#000000;
 }
@@ -92,15 +93,14 @@ margin-left: auto;
 margin-right:auto;
 background-color: #000000;
 }
-   
+
 p {
 color: #FFFFFF;
 font-size: 16px;
-font-family: Helvetic; 
+font-family: Helvetic;
 float: left;
 }
 
 .text {
 width: 500px;
 }
-

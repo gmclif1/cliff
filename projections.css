@@ -103,18 +103,6 @@ transform: scale(1.2);
 }
 
 
-.lap {
-transform: rotate(90deg);
-position: relative;
-top: -80px;
-left: -10px;
-}
-
-
-.spin {
-transform: rotate(90deg);
-
-}
 
 
 .images {

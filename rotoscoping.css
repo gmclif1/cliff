@@ -96,7 +96,7 @@ margin-right: 50px;
 }
 
 
-.morgan {
+.greg {
 float: left;
 padding: 0px;
 transition: transform 1s;
@@ -117,9 +117,4 @@ margin-bottom: 0px;
   padding-right: 50px;
   align-content: center;
   padding-top: 50px;
-}
-
-
-.arm {
-padding-left: -10px;
 }

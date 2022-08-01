@@ -91,7 +91,7 @@ text-align: left;
 width: 550px;
 float: right;
 display: block;
-margin-top: -640px;
+margin-top: -240px;
 
 }
 
@@ -108,7 +108,6 @@ transform: scale(1.2);
 }
 
 
-
 .images {
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -118,5 +117,5 @@ align-content: center;
 column-gap: 10px;
 padding: 190px;
 align-content: center;
-padding-top: 20px;
+padding-top: 0px;
 }

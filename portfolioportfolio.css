@@ -214,3 +214,22 @@ transform: scale(1.2);
 transition:transform .20s ease-in-out 0.30s;
 width: 900px;
 }
+
+.starbucksimg {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding:0px;
+overflow-x: hidden;
+}
+
+.starbucks a {
+text-decoration: none;
+transition: transform .30s;
+}
+
+.starbucks a:hover h1 {
+transform: scale(1.2);
+transition:transform .20s ease-in-out 0.30s;
+width: 900px;
+}

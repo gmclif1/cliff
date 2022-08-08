@@ -6,8 +6,8 @@ top: 0px;
 left: 5px;
 z-index: 2000;
 width: 100%;
-border-bottom: 1px solid #FFFFFF;  
-background:#FFFFFF; 
+border-bottom: 1px solid #FFFFFF;
+background:#FFFFFF;
 
 
 }
@@ -26,8 +26,8 @@ column-gap: 70px;
 width: 200px;
 text-decoration: none;
 list-style-type: none;
-    
-    
+
+
 }
 
 
@@ -64,10 +64,10 @@ margin-top: 145px;
 text-align: right;
 padding-right: 25px;
 
-    
+
 }
 
-    
+
 body {
 background-color:#FFFFFF;
 }
@@ -83,7 +83,7 @@ margin-left: auto;
 margin-right:auto;
 background-color: #FFFFFF;
 }
-   
+
 .p1 {
 color: #000000;
 font-size: 17px;
@@ -95,16 +95,27 @@ margin-top: -640px;
 
 }
 
+.p2 {
+color: #000000;
+font-size: 14px;
+text-align: left;
+width: 650px;
+float: right;
+display: block;
+margin-top: -520px;
+
+}
+
 
 .topimage {
 float: left;
 padding: 20px;
-transition: transform 1s; 
+transition: transform 1s;
 margin-bottom: -10px;
 }
 
 .topimage:hover {
-transform: scale(1.2); 
+transform: scale(1.2);
 }
 
 
@@ -120,5 +131,3 @@ padding: 190px;
 align-content: center;
 padding-top: 20px;
 }
-
-

@@ -118,6 +118,7 @@ column-gap: 15px;
 padding: 160px;
 align-content: center;
 padding-top: 0px;
+margin-top: -50px;
 }
 
 .images2 {
@@ -130,4 +131,13 @@ column-gap: 15px;
 padding: 260px;
 align-content: center;
 padding-top: 0px;
+margin-top: -70px;
+}
+
+.page5 {
+  margin-top: -290px;
+}
+
+.page6 {
+  margin-top: -290px;
 }

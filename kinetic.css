@@ -114,8 +114,11 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
 margin: 0px;
 align-content: center;
-column-gap: 10px;
+column-gap: 100px;
+row-gap: 30px;
 padding: 190px;
 align-content: center;
 padding-top: 0px;
+margin-top: -300px;
+margin-left: -80px;
 }

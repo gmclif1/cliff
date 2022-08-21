@@ -15,7 +15,7 @@ width: 1000px;
 height: 1000px;
 padding: 10px solid #FFFFFF;
 margin: 10px;
-font-family: Helvetic; 
+font-family: Helvetic;
 background-image: url(a62.png);
 background-position: center;
 z-index: -1;
@@ -53,7 +53,7 @@ float: left;
 margin: 5px;
 font-size: 14px;
 
-}  
+}
 
 nav {
 position: relative;
@@ -120,7 +120,7 @@ font-family: Helvetica;
  p a:hover {
 font-family: Helvetica;
 text-decoration:underline;
-color:#0000EE;  
+color:#0000EE;
 font-style: bold;
 }
 
@@ -143,5 +143,3 @@ padding-left: 128px;
 padding-right: 135px;
 
 }
-
-

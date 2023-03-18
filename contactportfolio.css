@@ -1,8 +1,8 @@
 .thumb {
 margin: 0px;
 position: fixed;
-top: 0px;
-left: -8px;
+top: 0;
+left: 0;
 z-index: 2000;
 width: 100%;
 border-bottom: 1px solid #000000;
@@ -16,14 +16,13 @@ float: left;
 }
 
 nav ul {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr;
-padding: 15px;
-margin: 0px;
-column-gap: 70px;
-width: 200px;
+padding: 0;
+    margin-top: 43px;
+display: flex;
+}
 
+nav ul li {
+  padding-right: 20px;
 }
 
 
@@ -63,8 +62,6 @@ background-color:#000000;
 
 .wrapper {
 border: 3px;
-width: 1000px;
-height: 826px;
 padding: 10px;
 background-position: center;
 display: block;
@@ -80,54 +77,52 @@ text-align: center;
 }
 
 
-.linkedingeneral a {
-color: #FFFFFF;
-font-size: 16px;
-text-align: center;
-text-decoration: none;
-width: 350px;
-display: block;
-align-items: center;
-margin-left: 330px;
-transition: transform .30s;
-}
-
-.linkedingeneral a:hover {
-
-transform: scale(1.2);
-transition:transform .15s ease-in-out 0.30s;
-width: 400px;
-text-align: center;
-display: block;
-align-items: center;
-margin-left: 305px;
-}
 
 .text{
 margin-top: 60px;
 }
 
-.instagram a {
-  color: #FFFFFF;
+.text a {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  width: 350px;
+  /* width: 350px; */
   display: block;
+  color: #fff;
   align-items: center;
-  margin-left: 330px;
+  /* margin-left: 330px; */
   transition: transform .30s;
   transition: color 1s, color .5s;
 
 }
 
 
-.instagram a:hover {
+.text a:hover {
 
 transform: scale(1.2);
 transition:transform .15s ease-in-out 0.30s;
 width: 400px;
-margin-left: 305px;
-background-color: #000000;
-color:#6B89A1;
+color:#6B89A1 !important;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text a {
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.wrapper {
+  margin-top: 13rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    max-width: 1000px;
+  }
 }

@@ -848,8 +848,8 @@ padding-top: 0px;
 margin-top: 300px;
 margin-left: auto;
 margin-right: auto;
-
 }
+
 
 
 /*not sure why this for phone is being influenced my the portfolio page
@@ -1224,6 +1224,7 @@ font-size: 34px;
 
 #wrapper {
 height: 826px;
+width: 1000px;
 background-position: center;
 display: block;
 margin-left: auto;
@@ -1256,31 +1257,24 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
 margin: 0px;
 align-content: center;
-column-gap: 100px;
 row-gap: 30px;
-padding: 70px;
+column-gap: 10px;
+padding: 0px;
 align-content: center;
 padding-top: 0px;
 margin-top: 300px;
-margin-left: 40px;
+margin-left: auto;
+margin-right: auto;
 }
 
-
-.page-starbucks.page5 {
-  margin-top: -290px;
+.phonewireframes {
+padding-left: 90px;
 }
 
-.page6 {
-  margin-top: -290px;
+.menupage {
+padding-left: 90px;
 }
 
-.bruh {
-  margin-top: -590px;
-}
-
-.bruh2 {
-  margin-top: -590px;
-}
 
 
 /* end starbucks page */

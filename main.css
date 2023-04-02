@@ -1059,25 +1059,13 @@ left: 600px;
 /* breaking */
 
 
-.page-breaking h1 {
+.page-breaking .p1 span {
 font-family: 'Cinzel', serif;
 font-weight: bold;
-font-size: 35px;
-color: #000000;
-display: grid;
-grid-template-columns: 1fr;
-padding: 0px;
-margin-top: 145px;
-text-align: right;
-padding-right: 25px;
-
+font-size: 30px;
 
 }
 
-
-body.page-breaking  {
-background-color:#FFFFFF;
-}
 
 .page-breaking .wrapper {
 border: 3px;
@@ -1089,54 +1077,31 @@ display: block;
 margin-left: auto;
 margin-right:auto;
 background-color: #FFFFFF;
+
 }
 
 .page-breaking .p1 {
 color: #000000;
 font-size: 17px;
 text-align: left;
-width: 550px;
-float: right;
-display: block;
-margin-top: -640px;
-
-}
-
-.page-breaking .p2 {
-color: #000000;
-font-size: 14px;
-text-align: left;
-width: 650px;
-float: right;
-display: block;
-margin-top: -520px;
+margin-top: -10px;
 
 }
 
 
-.page-breaking .topimage {
-float: left;
-padding: 20px;
-transition: transform 1s;
-margin-bottom: -10px;
-}
-
-.page-breaking .topimage:hover {
-transform: scale(1.2);
-}
-
-
-
-.page-breaking .images {
+.breakingimages {
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
-margin: 0px;
 align-content: center;
-column-gap: 10px;
-padding: 190px;
+row-gap: 30px;
+padding: 0px;
 align-content: center;
-padding-top: 20px;
+padding-top: 0px;
+margin-top: 300px;
+margin-left: auto;
+margin-right: auto;
+column-gap: 15px;
 }
  /* end page breaking */
 

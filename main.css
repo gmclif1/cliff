@@ -890,7 +890,7 @@ padding-top: 0px;
 margin-top: 600px;
 width: 1000px;
 height: 860px;
-margin-left: 110px;
+/*margin-left: 110px;*/
 
 }
 
@@ -1236,7 +1236,7 @@ padding-right: 450px;
 display: grid;
 grid-template-columns: repeat(2,1fr);
 row-gap: 30px;
-column-gap: 10px;
+column-gap: 5px;
 padding-top: 190px;
 margin-top: -60px;
 margin-left: 50px;
@@ -1275,7 +1275,7 @@ margin-right:auto;
   margin-top: 600px;
   width: 1000px;
   height: 860px;
-  margin-left: 40px;
+  /*margin-left: 40px;*/
 
 }
 /* landscape end */
@@ -1363,7 +1363,7 @@ padding: 0px;
 align-content: center;
 padding-top: 0px;
 margin-top: 600px;
-margin-left: 50px;
+/*margin-left: 50px;*/
 width: 1000px;
 height: 3000px;
 }

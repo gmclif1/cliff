@@ -888,6 +888,8 @@ padding: 0px;
 align-content: center;
 padding-top: 0px;
 margin-top: 600px;
+margin-left: auto;
+margin-right: auto;
 width: 1000px;
 height: 860px;
 /*margin-left: 110px;*/
@@ -1241,6 +1243,7 @@ padding-top: 190px;
 margin-top: -60px;
 margin-left: 50px;
 margin-right:auto;
+margin-left: auto;
 
 }
 
@@ -1316,6 +1319,8 @@ margin-top: 190px;
 width: 1000px;
 height: 1000px;
 padding: 50px;
+margin-left: auto;
+margin-right: auto;
 
 }
 
@@ -1366,6 +1371,8 @@ margin-top: 500px;
 /*margin-left: 50px;*/
 width: 1000px;
 height: 3000px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .logofullname {

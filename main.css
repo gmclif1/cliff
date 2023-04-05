@@ -1228,7 +1228,7 @@ padding: 0px;
 margin-top: 220px;
 margin-bottom: -20px;
 text-align: right;
-padding-right: 450px;
+padding-right: 300px;
 
 
 }
@@ -1238,13 +1238,15 @@ padding-right: 450px;
 display: grid;
 grid-template-columns: repeat(2,1fr);
 row-gap: 30px;
-column-gap: 5px;
+column-gap: 10px;
+padding: 0px;
 padding-top: 190px;
-margin-top: -60px;
-margin-left: 50px;
+margin-top: 900px;
 margin-right:auto;
 margin-left: auto;
-
+width: 1000px;
+height: 3000px;
+align-content: center;
 }
 
 
@@ -1278,6 +1280,8 @@ margin-left: auto;
   margin-top: 600px;
   width: 1000px;
   height: 860px;
+  margin-left: auto;
+  margin-right: auto;
   /*margin-left: 40px;*/
 
 }
@@ -1367,7 +1371,7 @@ column-gap: 14px;
 padding: 0px;
 align-content: center;
 padding-top: 0px;
-margin-top: 500px;
+margin-top: 600px;
 /*margin-left: 50px;*/
 width: 1000px;
 height: 3000px;

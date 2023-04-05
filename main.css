@@ -1249,6 +1249,10 @@ height: 3000px;
 align-content: center;
 }
 
+.thumbline {
+  margin-top: 50px;
+}
+
 
 /* landscape start */
 .page-landscape .p1 {

@@ -1,3 +1,39 @@
+/*@font-face {
+  font-family: "Fligen";
+  src: url("Fligen-Regular.otf") format("opentype");
+  font-style: normal;
+}
+*/
+
+@font-face {
+  font-family: "Selino";
+  src:url("Selino.otf") format("opentype");
+  font-style: normal;
+}
+
+
+/* doesn't exit but if you want more font weights you'll add the src here
+and then in styles you can use font weight 300 etc */
+/*@font-face {
+  font-family: "Fligen";
+  src: url("Fligen-SemiBold.otf") format("opentype");
+}
+*/
+@font-face {
+  font-family: "Selino";
+  src: url("SelinoItalic.otf") format("opentype");
+}
+
+/* the * sign targets all elements, add the font family below if you change it */
+ {
+  font-family: "SelinoItalic", serif;
+}
+
+
+/* line-height: 26px;
+letter-spacing: 1px; */
+
+
 /* start navigation */
 
 .thumb {
@@ -8,6 +44,7 @@ left: 0;
 z-index: 2000;
 width: 100%;
 background: #e8e3d6;
+font-weight: 300;
 }
 
 .float {
@@ -38,7 +75,7 @@ text-decoration: none;
 transition: color 1s, color .5s;
 color: #000000;
 text-align: center;
-font-family: 'Cinzel', serif;
+/* font-family: 'Cinzel', serif; */
 font-weight: 600;
 font-size: 18px;
 background: #e8e3d6;

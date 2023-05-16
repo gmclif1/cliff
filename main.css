@@ -580,6 +580,60 @@ text-decoration: none;
 }
 
 
+.ivlimg {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding:0px;
+overflow-x: hidden;
+}
+
+.ivl a {
+text-decoration: none;
+}
+
+.balletimg {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding:0px;
+overflow-x: hidden;
+}
+
+.ballet a {
+text-decoration: none;
+}
+
+
+.fashionimg {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding:0px;
+overflow-x: hidden;
+}
+
+.fashion a {
+text-decoration: none;
+}
+
+
+.artimg {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding:0px;
+overflow-x: hidden;
+}
+
+.art a {
+text-decoration: none;
+}
+
+
+
+
+
 
 @media screen and (min-width: 1024px) {
   .portfolio {
@@ -1427,3 +1481,154 @@ padding-left: 100px;
 .invasivebrown {
 padding-left: 40px;
 }
+
+/*beginning balletbody*/
+
+
+.page-ballet .p1 span {
+font-family: 'Cinzel', serif;
+font-weight: bold;
+font-size: 34px;
+}
+
+
+
+.page-ballet .p1 {
+color: #000000;
+font-size: 17px;
+text-align: left;
+margin-top: -10px;
+}
+
+
+.balletimages {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+align-content: center;
+row-gap: 30px;
+column-gap: 25px;
+padding: 0px;
+align-content: center;
+padding-top: 0px;
+margin-top: 300px;
+margin-left: auto;
+margin-right: auto;
+width: 1100px;
+height: 860px;
+}
+
+/*end ballet body*/
+
+/*beginning art institute*/
+
+.page-artinstitute .p1 span {
+font-family: 'Cinzel', serif;
+font-weight: bold;
+font-size: 34px;
+}
+
+
+
+.page-artinstitute .p1 {
+color: #000000;
+font-size: 17px;
+text-align: left;
+margin-top: -10px;
+}
+
+
+.artinstituteimages {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+align-content: center;
+row-gap: 30px;
+column-gap: 25px;
+padding: 0px;
+align-content: center;
+padding-top: 0px;
+margin-top: 900px;
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+height: 860px;
+/*margin-left: 110px;*/
+
+}
+
+/*end art institute*/
+
+/*beginning fashionshow*/
+
+
+.page-fashion .p1 span {
+font-family: 'Cinzel', serif;
+font-weight: bold;
+font-size: 34px;
+}
+
+
+
+.page-fashion .p1 {
+color: #000000;
+font-size: 17px;
+text-align: left;
+margin-top: -10px;
+}
+
+
+.fashionimages {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+align-content: center;
+row-gap: 30px;
+column-gap: 25px;
+padding: 0px;
+align-content: center;
+padding-top: 0px;
+margin-top: 700px;
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+height: 860px;
+}
+/*end fashion*/
+
+/*beginning ivl*/
+
+
+.page-ivl .p1 span {
+font-family: 'Cinzel', serif;
+font-weight: bold;
+font-size: 34px;
+}
+
+
+
+.page-ivl .p1 {
+color: #000000;
+font-size: 17px;
+text-align: left;
+margin-top: -10px;
+}
+
+
+.ivlimages {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+align-content: center;
+row-gap: 30px;
+column-gap: 25px;
+padding: 0px;
+align-content: center;
+padding-top: 0px;
+margin-top: 1000px;
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+height: 860px;
+}
+/*end ivl*/

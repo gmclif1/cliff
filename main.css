@@ -557,9 +557,7 @@ text-decoration: none;
 .other img {
 width: 100%;
 height: 100%;
-margin: 0px;
-padding:0px;
-overflow-x: hidden;
+object-fit: contain;
 
 }
 
@@ -773,104 +771,51 @@ padding-left: -10px;
 
 
 
-.expectations .p1 span {
-font-weight: bold;
+.page-expectations .p1 span {
 font-family: 'Cinzel', serif;
+font-weight: bold;
 font-size: 34px;
 }
 
-
-body.page-expectationsvreality {
-background-color:#FFFFFF;
+body .page-expectations {
+  background-color: #FFFFFF;
 }
 
-.page-expectationsvreality .wrapper {
-border: 3px;
-width: 1100px;
-height: 826px;
-padding: 10px;
-background-position: left;
-display: block;
-margin-left: auto;
-margin-right:auto;
-background-color: #FFFFFF;
-margin-top: 200px;
-}
 
-.page-expectationsvreality .p1 {
+
+.page-expectations .p1 {
 color: #000000;
 font-size: 17px;
 text-align: left;
-width: 500px;
+width: 550px;
 float: right;
-}
-
-.page-expectationsvreality .p2{
-color: #000000;
-font-size: 16px;
-text-align: left;
-margin-top: -50px;
+margin-top: 0px;
 
 }
 
 
-.page-expectationsvreality .rotate {
-transform: rotate(270deg);
-position: relative;
-top: -80px;
-left: -10px;
+
+.expectationsimages {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  row-gap: 30px;
+  column-gap: 10px;
+  /* padding: 0px;
+  padding-top: 890px;
+  margin-top: 400px;
+  margin-right:auto;
+  margin-left: auto;
+  width: 1000px;
+  height: 3000px;
+  align-content: center; */
+  width: 90%;
+      text-align: left;
+      padding-top: 200px;
+      margin: 0 auto;
 }
 
 
-.page-expectationsvreality .leftimage {
-position: relative;
-top: 0px;
-left: 90px;
-}
-
-
-.page-expectationsvreality .images {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr;
-margin: 0px;
-align-content: center;
-margin-top: -100px;
-column-gap: 60px;
-row-gap: 20px;
-padding: 0px;
-}
-
-.page-expectationsvreality .rotate {
-align-content: center;
-left: 10px;
-}
-
-.page-expectationsvreality .leftimage {
-top: -15px;
-}
-
-.page-expectationsvreality .firstimg {
-top: 10px;
-}
-
-.page-expectationsvreality .screenshot{
-position: relative;
-top: 200px;
-left: 0px;
-}
-
-
-.page-expectationsvreality .giflast {
-position: relative;
-margin-left: 600px;
-top: -200px;
-}
-
-.page-expectationsvreality .middle {
-position: relative;
-top: 143px;
-}
 
 /* end expectationsvreality page */
 
@@ -1311,7 +1256,7 @@ padding: 0px;
 margin-top: 220px;
 margin-bottom: -20px;
 text-align: right;
-padding-right: 300px;
+padding-right: 400px;
 
 
 }
@@ -1323,14 +1268,18 @@ grid-template-columns: 1fr 1fr ;
 grid-template-rows: 1fr 1fr ;
 row-gap: 30px;
 column-gap: 10px;
-padding: 0px;
+/* padding: 0px;
 padding-top: 890px;
-margin-top: 600px;
+margin-top: 400px;
 margin-right:auto;
 margin-left: auto;
 width: 1000px;
 height: 3000px;
-align-content: center;
+align-content: center; */
+width: 90%;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
 }
 
 .thumbline {
@@ -1459,7 +1408,7 @@ column-gap: 14px;
 padding: 0px;
 align-content: center;
 padding-top: 0px;
-margin-top: 550px;
+margin-top: 500px;
 /*margin-left: 50px;*/
 width: 1000px;
 height: 3000px;

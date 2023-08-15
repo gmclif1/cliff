@@ -340,7 +340,7 @@ color:#6B89A1 !important;
 
 
 
-/* start portfolioportfolio page */
+/* start portfolio page */
 
 .portfolio h1 {
 font-family: 'Cinzel', serif;
@@ -1327,12 +1327,13 @@ padding-right: 300px;
 
 .otherimages {
 display: grid;
-grid-template-columns: repeat(2,1fr);
+grid-template-columns: 1fr 1fr ;
+grid-template-rows: 1fr 1fr ;
 row-gap: 30px;
 column-gap: 10px;
 padding: 0px;
-padding-top: 190px;
-margin-top: 900px;
+padding-top: 890px;
+margin-top: 600px;
 margin-right:auto;
 margin-left: auto;
 width: 1000px;
@@ -1404,7 +1405,7 @@ font-size: 17px;
 text-align: left;
 width: 550px;
 float: right;
-margin-top: 30px;
+margin-top: 0px;
 
 }
 
@@ -1497,7 +1498,7 @@ font-size: 34px;
 color: #000000;
 font-size: 17px;
 text-align: left;
-margin-top: -10px;
+margin-top: 800px;
 }
 
 
@@ -1516,6 +1517,11 @@ margin-left: auto;
 margin-right: auto;
 width: 1100px;
 height: 860px;
+}
+
+
+.shoes {
+  margin-top: 800px;
 }
 
 /*end ballet body*/
